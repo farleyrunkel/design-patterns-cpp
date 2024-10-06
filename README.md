@@ -9,6 +9,7 @@ larger structures) and behavioral patterns (the assignment of responsibilities b
 objects).  
 
 #### Creational Patterns 
+- [Simple Factory], a simple way to create single object
 - [Abstract Factory], families of product objects
 - [Builder], how a composite object gets created
 - [Factory Method], subclass of object that is instantiated
@@ -49,34 +50,35 @@ Design patterns in this repository are based on
 * [Head First: Design Patterns]
 * [Wikipedia]
 
-[Design Patterns in C++]: https://github.com/JakubVojvoda/design-patterns-cpp
-[Design Patterns in Java]: https://github.com/JakubVojvoda/design-patterns-java
-[Design Patterns in Python]: https://github.com/JakubVojvoda/design-patterns-python
+[Design Patterns in C++]: https://github.com/farleyrunkel/design-patterns-cpp
+[Design Patterns in Java]: https://github.com/farleyrunkel/design-patterns-java
+[Design Patterns in Python]: https://github.com/farleyrunkel/design-patterns-python
 
 [Design Patterns by The "Gang of Four"]: https://en.wikipedia.org/wiki/Design_Patterns
 [Head First: Design Patterns]: http://www.headfirstlabs.com/books/hfdp/ 
 [Wikipedia]: https://en.wikipedia.org/wiki/Software_design_pattern
 
-[Abstract Factory]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/abstract-factory
-[Builder]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/builder
-[Factory Method]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/factory-method
-[Prototype]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/prototype
-[Singleton]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/singleton
-[Adapter]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/adapter
-[Bridge]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/bridge 
-[Composite]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/composite
-[Decorator]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/decorator
-[Façade]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/facade
-[Flyweight]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/flyweight
-[Proxy]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/proxy
-[Chain of Responsibility]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/chain-of-responsibility
-[Command]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/command
-[Interpreter]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/interpreter
-[Iterator]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/iterator
-[Mediator]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/mediator
-[Memento]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/memento
-[Observer]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/observer
-[State]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/state
-[Strategy]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/strategy
-[Template Method]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/template-method
-[Visitor]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/visitor
+[Simple Factory]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/simple-factory
+[Abstract Factory]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/abstract-factory
+[Builder]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/builder
+[Factory Method]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/factory-method
+[Prototype]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/prototype
+[Singleton]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/singleton
+[Adapter]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/adapter
+[Bridge]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/bridge 
+[Composite]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/composite
+[Decorator]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/decorator
+[Façade]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/facade
+[Flyweight]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/flyweight
+[Proxy]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/proxy
+[Chain of Responsibility]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/chain-of-responsibility
+[Command]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/command
+[Interpreter]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/interpreter
+[Iterator]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/iterator
+[Mediator]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/mediator
+[Memento]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/memento
+[Observer]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/observer
+[State]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/state
+[Strategy]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/strategy
+[Template Method]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/template-method
+[Visitor]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/visitor

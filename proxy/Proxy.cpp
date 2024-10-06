@@ -1,6 +1,6 @@
 /*
  * C++ Design Patterns: Proxy
- * Author: Jakub Vojvoda [github.com/JakubVojvoda]
+ * Author: Jakub Vojvoda [github.com/farleyrunkel]
  * 2016
  *
  * Source code is licensed under MIT License

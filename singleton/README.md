@@ -10,6 +10,6 @@ and [Flyweight]).
 * there must be exactly one instance of a class, and it must be accessible to clients from a well-known access point
 * when the sole instance should be extensible by subclassing, and clients should be able to use an extended instance without modifying their code
 
-[Façade]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/facade
-[Flyweight]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/flyweight
+[Façade]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/facade
+[Flyweight]: https://github.com/farleyrunkel/design-patterns-cpp/tree/master/flyweight
  

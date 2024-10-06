@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.5)
 project(CppDesignPatterns)
 
 set(PATTERNS
+    simple-factory
     abstract-factory
     adapter
     bridge
@@ -35,7 +36,7 @@ foreach(_dir IN ITEMS ${PATTERNS})
     foreach(_file IN ITEMS ${_files})
 
         get_filename_component(_file_name
-                                ${_file} NAME
+                                ${_file} NAME_WE
         )
 
         set(_project_name "${_file_name}")

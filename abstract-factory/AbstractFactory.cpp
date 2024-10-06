@@ -1,6 +1,6 @@
 /*
  * C++ Design Patterns: Abstract Factory
- * Author: Jakub Vojvoda [github.com/JakubVojvoda]
+ * Author: Jakub Vojvoda [github.com/farleyrunkel]
  * 2016
  *
  * Source code is licensed under MIT License
@@ -20,7 +20,7 @@ class ProductA
 public:
   virtual ~ProductA() {}
   
-  virtual const char* getName() = 0;
+  virtual const char* productName() = 0;
   // ...
 };
 
@@ -33,7 +33,7 @@ class ConcreteProductAX : public ProductA
 public:
   ~ConcreteProductAX() {}
   
-  const char* getName()
+  const char* productName()
   {
     return "A-X";
   }
@@ -45,7 +45,7 @@ class ConcreteProductAY : public ProductA
 public:
   ~ConcreteProductAY() {}
   
-  const char* getName()
+  const char* productName()
   {
     return "A-Y";
   }
@@ -62,7 +62,7 @@ class ProductB
 public:
   virtual ~ProductB() {}
   
-  virtual const char* getName() = 0;
+  virtual const char* productName() = 0;
   // ...
 };
 
@@ -75,7 +75,7 @@ class ConcreteProductBX : public ProductB
 public:
   ~ConcreteProductBX() {}
   
-  const char* getName()
+  const char* productName()
   {
     return "B-X";
   }
@@ -87,7 +87,7 @@ class ConcreteProductBY : public ProductB
 public:
   ~ConcreteProductBY() {}
   
-  const char* getName()
+  const char* productName()
   {
     return "B-Y";
   }
@@ -151,10 +151,10 @@ int main()
   ConcreteFactoryY *factoryY = new ConcreteFactoryY();
 
   ProductA *p1 = factoryX->createProductA();
-  std::cout << "Product: " << p1->getName() << std::endl;
+  std::cout << "Product: " << p1->productName() << std::endl;
   
   ProductA *p2 = factoryY->createProductA();
-  std::cout << "Product: " << p2->getName() << std::endl;
+  std::cout << "Product: " << p2->productName() << std::endl;
   
   delete p1;
   delete p2;

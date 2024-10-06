@@ -1,6 +1,6 @@
 /*
  * C++ Design Patterns: Factory Method
- * Author: Jakub Vojvoda [github.com/JakubVojvoda]
+ * Author: Jakub Vojvoda [github.com/farleyrunkel]
  * 2016
  *
  * Source code is licensed under MIT License
@@ -21,7 +21,7 @@ class Product
 public:
   virtual ~Product() {}
   
-  virtual std::string getName() = 0;
+  virtual std::string productName() = 0;
   // ...
 };
 
@@ -34,7 +34,7 @@ class ConcreteProductA : public Product
 public:
   ~ConcreteProductA() {}
   
-  std::string getName()
+  std::string productName()
   {
     return "type A";
   }
@@ -50,7 +50,7 @@ class ConcreteProductB : public Product
 public:
   ~ConcreteProductB() {}
   
-  std::string getName()
+  std::string productName()
   {
     return "type B";
   }
@@ -109,11 +109,11 @@ int main()
   Creator *creator = new ConcreteCreator();
   
   Product *p1 = creator->createProductA();
-  std::cout << "Product: " << p1->getName() << std::endl;
+  std::cout << "Product: " << p1->productName() << std::endl;
   creator->removeProduct( p1 );
   
   Product *p2 = creator->createProductB();
-  std::cout << "Product: " << p2->getName() << std::endl;
+  std::cout << "Product: " << p2->productName() << std::endl;
   creator->removeProduct( p2 );
   
   delete creator;

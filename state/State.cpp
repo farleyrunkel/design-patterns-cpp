@@ -1,6 +1,6 @@
 /*
  * C++ Design Patterns: State
- * Author: Jakub Vojvoda [github.com/JakubVojvoda]
+ * Author: Jakub Vojvoda [github.com/farleyrunkel]
  * 2016
  *
  * Source code is licensed under MIT License
